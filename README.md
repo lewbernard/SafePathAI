@@ -1,11 +1,31 @@
-# 🛡️ SafePathAI
+#  SafePathAI
 
 ## Project Overview
 SafePathAI is a mobile application designed to assist the visually impaired in navigating daily tasks using AI. 
 
 **Hackathon Criteria Fulfillment:**
-* ✅ **Google AI Technology:** Powered by **Google AI Studio / Gemini** for real-time environmental analysis.
-* ✅ **Google Technology (Non-AI):** Built completely on the **Flutter Framework** (and compiled via the Android SDK) for a high-performance, cross-platform mobile experience.
+* **Google AI Technology:** Powered by **Google AI Studio / Gemini** for real-time environmental analysis.
+* **Google Technology (Non-AI):** Built completely on the **Flutter Framework** (and compiled via the Android SDK) for a high-performance, cross-platform mobile experience.
+
+---
+
+###  Setup & Testing Instructions
+
+**For Non-Technical Judges (Fastest Way to Test):**
+You do not need to build this code to test the application. 
+1. Navigate to the **Releases** section on the right sidebar of this GitHub repository.
+2. Download the `app-release.apk` file.
+3. Install it directly onto any Android device. 
+*(Note: The Google AI Studio API key is securely compiled into this release version, so the AI navigation features will work immediately upon installation).*
+
+**For Developers (Running from Source):**
+For security reasons, the raw Gemini API key has been removed from the public source code. To run this project locally, follow these steps:
+1. Clone this repository: `git clone https://github.com/YourUsername/SafePathAI.git`
+2. Ensure you have the Flutter SDK and Android SDK installed.
+3. Open the project in your IDE and navigate to the file containing the API call (e.g., `lib/main.dart`).
+4. Replace the `'YOUR_GEMINI_API_KEY_HERE'` placeholder with your own valid Google AI Studio API key.
+5. Run `flutter pub get` in the terminal to install all dependencies.
+6. Run `flutter run` to launch the app on a connected Android device or emulator.
 
 ---
 
