@@ -63,6 +63,6 @@ Building a hardware-to-AI pipeline came with several technical hurdles:
 ### Future Roadmap
 As we move toward the final round and public release, SafePathAI will be expanded with the following features:
 
-* **Phase 1 (Final Round Goal):** Implement text-to-speech (TTS) features for hands-free auditory alerts, deeply integrating with Android's native accessibility services.
+* **Phase 1 (Final Round Goal):** Implement full Speech-to-Text (STT) capabilities. Instead of relying on screen taps, users will be able to launch the app, trigger scans, and navigate the interface entirely hands-free using natural voice commands.
 * **Phase 2:** Integrate the **Google Maps API** (Adding a second Google Technology) to overlay the AI's hazard detection onto a live GPS routing system.
 * **Phase 3:** Compile and release the iOS version (thanks to our Flutter codebase) to expand our user base and impact.
