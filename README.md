@@ -64,5 +64,5 @@ Building a hardware-to-AI pipeline came with several technical hurdles:
 As we move toward the final round and public release, SafePathAI will be expanded with the following features:
 
 * **Phase 1 (Final Round Goal):** Implement full Speech-to-Text (STT) capabilities. Instead of relying on screen taps, users will be able to launch the app, trigger scans, and navigate the interface entirely hands-free using natural voice commands.
-* **Phase 2:** Integrate the **Google Maps API** (Adding a second Google Technology) to overlay the AI's hazard detection onto a live GPS routing system.
-* **Phase 3:** Compile and release the iOS version (thanks to our Flutter codebase) to expand our user base and impact.
+* **Phase 2:** Integrate Google’s ML Kit to enable core offline computer vision, real-time object detection, and OCR directly on the smartphone. This leverages ML Kit’s primary strength in on-device processing so the app can function reliably without internet, dramatically reducing latency and cloud dependency while keeping high accuracy for head-level obstacles and text reading.
+* **Phase 3:** Integrate physical devices such as chest mounts, smart glasses, and other wearables to optimize camera positioning for superior head-level obstacle detection and deliver a truly seamless, hands-free navigation experience for visually impaired users.
