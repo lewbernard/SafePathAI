@@ -20,7 +20,7 @@ You do not need to build this code to test the application.
 
 **For Developers (Running from Source):**
 For security reasons, the raw Gemini API key has been removed from the public source code. To run this project locally, follow these steps:
-1. Clone this repository: `git clone https://github.com/YourUsername/SafePathAI.git`
+1. Clone this repository: `git clone https://github.com/lewbernard/SafePathAI.git`
 2. Ensure you have the Flutter SDK and Android SDK installed.
 3. Open the project in your IDE and navigate to the file containing the API call (e.g., `lib/main.dart`).
 4. Replace the `'YOUR_GEMINI_API_KEY_HERE'` placeholder with your own valid Google AI Studio API key.
